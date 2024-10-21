@@ -12,7 +12,7 @@ const HomeCards = () => {
               Browse our React jobs and start your career today
             </p>
             <a
-              href="/jobs.html"
+              href="/jobs"
               className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
               Browse Jobs
