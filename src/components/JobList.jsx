@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { FaMapMarker } from "react-icons/fa";
 
-const JobList = ({ jobs }) => {
+const JobList = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
-  let description = jobs.description;
+  let description = job.description;
 
   if (!showFullDescription) {
     description = description.substring(0, 90) + "...";
@@ -15,8 +15,8 @@ const JobList = ({ jobs }) => {
       <div className="bg-white rounded-xl shadow-md relative">
         <div className="p-4">
           <div className="mb-6">
-            <div className="text-gray-600 my-2">{jobs.type}</div>
-            <h3 className="text-xl font-bold">{jobs.title}</h3>
+            <div className="text-gray-600 my-2">{job.type}</div>
+            <h3 className="text-xl font-bold">{job.title}</h3>
           </div>
 
           <div className="mb-5">{description}</div>
@@ -27,14 +27,14 @@ const JobList = ({ jobs }) => {
             {showFullDescription ? "Less" : "More"}
           </button>
 
-          <h3 className="text-indigo-500 mb-2">{jobs.salary} / Year</h3>
+          <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3>
 
           <div className="border border-gray-100 mb-5"></div>
 
           <div className="flex flex-col lg:flex-row justify-between mb-4">
             <div className="text-orange-700 mb-3">
               <FaMapMarker className="inline text-lg mb-1 mr-1" />
-              {jobs.location}
+              {job.location}
             </div>
             <a
               href="job.html"
