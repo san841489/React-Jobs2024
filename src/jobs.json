@@ -83,6 +83,19 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "78a3",
+      "title": "Frontend Developer Specializing in Next.js",
+      "type": "Full-Time",
+      "location": "Boston, MA",
+      "description": "We are seeking a highly skilled Frontend Developer with extensive experience in Next.js to join our project on a freelance basis.\n\nThe ideal candidate will be responsible for turning our Figma designs into a high-quality, responsive, and smooth-functioning frontend.\n\nKey Requirements:\nProficiency in HTML, CSS, and JavaScript\nExpertise with Next.js and other relevant frontend frameworks\nStrong knowledge and experience in creating smooth, responsive animations\nA deep understanding of UI/UX principles to ensure an optimal user experience\nAbility to work from Figma designs and convert them into fully functional frontend code\nClean and efficient coding practices, following industry standards\n",
+      "salary": "$50K - 60K",
+      "company": {
+        "name": "Next Company inc",
+        "description": "As part of the selection process, we request a demo of your skills by implementing our Figma design. This will help us evaluate your capabilities before moving forward with the project.",
+        "contactEmail": "test@test.com"
+      }
     }
   ]
 }
