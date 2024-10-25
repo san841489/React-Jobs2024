@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const JobList = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
-  let description = job.description;
+  let description = job?.description ?? "No description available";
 
-  if (!showFullDescription) {
+  if (!showFullDescription && description.length > 90) {
     description = description.substring(0, 90) + "...";
   }
 
