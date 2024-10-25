@@ -95,6 +95,7 @@ const AddJobPage = ({ addJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 rows="4"
                 placeholder="Add any job duties, expectations, requirements, etc"
+                required
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
               ></textarea>
@@ -160,6 +161,7 @@ const AddJobPage = ({ addJobSubmit }) => {
                 name="company"
                 className="border rounded w-full py-2 px-3"
                 placeholder="Company Name"
+                required
                 value={companyName}
                 onChange={(e) => setCompanyName(e.target.value)}
               />
@@ -178,6 +180,7 @@ const AddJobPage = ({ addJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 rows="4"
                 placeholder="What does your company do?"
+                required
                 value={companyDescription}
                 onChange={(e) => setCompanyDescription(e.target.value)}
               ></textarea>

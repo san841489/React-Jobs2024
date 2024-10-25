@@ -85,16 +85,31 @@
       }
     },
     {
-      "id": "78a3",
-      "title": "Frontend Developer Specializing in Next.js",
+      "id": "d518",
+      "title": "Senior Front-End Engineer - React JS",
+      "type": "Full-Time",
+      "location": "UK",
+      "description": "We are seeking an experienced Senior React Developer to be a key player in bringing our SaaS product to life. In this role, you will develop high-quality, responsive user interfaces and real-time dashboards that provide critical insights to our clients. You will collaborate closely with our team to integrate multiple data sources, CRMs, and marketing platforms, ensuring seamless performance and a user-friendly experience. Your contribution will be instrumental in the successful launch and ongoing development of our platform.\nKey Requirements:\nReact, TypeScript & Redux Expertise: Proven experience building scalable web applications with React, TypeScript, and Redux. Deep understanding of React's rendering mechanisms, the virtual DOM, and component lifecycle with proficiency in state management.\nExpert at DOM manipulation\nPerformance Optimization: Expertise in React performance optimization using memoization (React.memo, useMemo, useCallback), React Profiler, and batch updates to minimize unnecessary re-renders.\nHandling Large Datasets: Experience in managing and visualizing large datasets on the front-end, specifically in efficiently handling 5k rows of data over 7 days, with fast response times (2 seconds), and rendering complex charts and tables.\nCustom CSS: Extensive experience in writing custom CSS without relying on theme libraries such as Tailwind or Bootstrap, ensuring pixel-perfect designs. Proficient in React CSS modules for modular and maintainable styling.\nCharting Libraries: Extensive experience with charting libraries such as Chart.js, Recharts, and D3.js, and creating custom charts based on client-specific needs.\nCustom Third-Party Integrations: Proficiency in integrating third-party services like Stripe, Google Analytics, HubSpot, and other CRM APIs, as well as OAuth for social logins.\nUI/UX Collaboration: Strong collaboration skills with UX designers to translate design prototypes into fully functional, pixel-perfect user interfaces, ensuring optimal user experience.\nBackend Services & API Integrations: Experience integrating backend services with RESTful APIs (JSON) and handling large data sources for real-time data visualizations.\nDevOps Tools: Familiarity with deploying front-end applications using Docker and AWS services such as S3, EC2, CloudFront, and Lambda.",
+      "salary": "Under $50K",
+      "company": {
+        "name": " Pruuv",
+        "description": "Pruuv is a well-funded startup on the verge of launching its trailblazing SaaS product, revolutionizing the way businesses track and analyze marketing performance. We are passionate about innovation and are looking for talented individuals to help drive our vision forward. If you're excited to be part of a dynamic team and contribute to building something transformative, we want to hear from you.",
+        "contactEmail": "pruuv@test.com",
+        "contactPhone": "9870561428"
+      }
+    },
+    {
+      "id": "72fe",
+      "title": "Next.js Frontend React Developer",
       "type": "Full-Time",
       "location": "Boston, MA",
-      "description": "We are seeking a highly skilled Frontend Developer with extensive experience in Next.js to join our project on a freelance basis.\n\nThe ideal candidate will be responsible for turning our Figma designs into a high-quality, responsive, and smooth-functioning frontend.\n\nKey Requirements:\nProficiency in HTML, CSS, and JavaScript\nExpertise with Next.js and other relevant frontend frameworks\nStrong knowledge and experience in creating smooth, responsive animations\nA deep understanding of UI/UX principles to ensure an optimal user experience\nAbility to work from Figma designs and convert them into fully functional frontend code\nClean and efficient coding practices, following industry standards\n",
-      "salary": "$50K - 60K",
+      "description": "Key Skills & Experience:\nStrong experience with Next.js, React, React Testing Library, React Query.\nFamiliarity with Amazon SP and Ads API and experience integrating them into a web application.\nSolid understanding of frontend performance optimization techniques.\nExperience with mentoring junior developers and promoting best practices in code reviews.\nStrong understanding of risk, controls, and governance related to software development.\nPurpose of the Role\nTo design, develop, and improve frontend features for our Amazon Analytics Tool, utilizing engineering methodologies that provide seamless user experience and support business objectives.\n",
+      "salary": "Under $50K",
       "company": {
-        "name": "Next Company inc",
-        "description": "As part of the selection process, we request a demo of your skills by implementing our Figma design. This will help us evaluate your capabilities before moving forward with the project.",
-        "contactEmail": "test@test.com"
+        "name": "Richberry LTD",
+        "description": "All colleagues are expected to embody Shurq's Values of Respect, Integrity, Service, Excellence, and Stewardship. We expect you to demonstrate the Shurq Mindset—to Empower, Challenge, and Drive.",
+        "contactEmail": "shurq@test.com",
+        "contactPhone": ""
       }
     }
   ]

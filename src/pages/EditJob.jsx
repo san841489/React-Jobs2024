@@ -3,22 +3,25 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 const EditJob = ({ updateJobSubmit }) => {
-  const job = useLoaderData();
-
-  const [type, setType] = useState(job.type);
-  const [title, setTitle] = useState(job.title);
-  const [location, setLocation] = useState(job.location);
-  const [description, setDescription] = useState(job.description);
-  const [salary, setSalary] = useState(job.salary);
-  const [companyName, setCompanyName] = useState(job.company.name);
-  const [companyDescription, setCompanyDescription] = useState(
-    job.company.description
-  );
-  const [contactEmail, setContactEmail] = useState(job.company.contactEmail);
-  const [contactPhone, setContactPhone] = useState(job.company.setContactPhone);
-
+  const job = useLoaderData() || {}; // Use empty object if job data is undefined
   const navigate = useNavigate();
   const { id } = useParams();
+
+  const [type, setType] = useState(job.type ?? "");
+  const [title, setTitle] = useState(job.title ?? "");
+  const [location, setLocation] = useState(job.location ?? "");
+  const [description, setDescription] = useState(job.description ?? "");
+  const [salary, setSalary] = useState(job.salary ?? "");
+  const [companyName, setCompanyName] = useState(job.company?.name ?? "");
+  const [companyDescription, setCompanyDescription] = useState(
+    job.company?.description ?? ""
+  );
+  const [contactEmail, setContactEmail] = useState(
+    job.company?.contactEmail ?? ""
+  );
+  const [contactPhone, setContactPhone] = useState(
+    job.company?.contactPhone ?? ""
+  );
 
   const onSubmitForm = (e) => {
     e.preventDefault();
@@ -102,6 +105,7 @@ const EditJob = ({ updateJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 rows="4"
                 placeholder="Add any job duties, expectations, requirements, etc"
+                required
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
               ></textarea>
@@ -167,6 +171,7 @@ const EditJob = ({ updateJobSubmit }) => {
                 name="company"
                 className="border rounded w-full py-2 px-3"
                 placeholder="Company Name"
+                required
                 value={companyName}
                 onChange={(e) => setCompanyName(e.target.value)}
               />
@@ -185,6 +190,7 @@ const EditJob = ({ updateJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 rows="4"
                 placeholder="What does your company do?"
+                required
                 value={companyDescription}
                 onChange={(e) => setCompanyDescription(e.target.value)}
               ></textarea>
